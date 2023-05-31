@@ -17,6 +17,8 @@ class solution(object):
         for i, num in enumerate(nums):
             if target - num in hashNums.keys():
                 return [hashNums[target-num], i]
+        
+        return
 
 
 
