@@ -2,7 +2,7 @@ class solution(object):
     def topKFrequent(self, nums , k):
         
         hashTable = {}
-        outputArr = [[] for in range(len(nums) + 1)]
+        outputArr = [[] in range(len(nums) + 1)]
         # Bucket Sort
         for c in set(nums):
             hashTable[c] = 1 + hashTable.get(c,0)
